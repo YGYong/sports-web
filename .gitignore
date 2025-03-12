@@ -1,5 +1,4 @@
-.hbuilderx
-unpackage
+.hbuilderx/
 LICENSE
 /node_modules
-/unpackage/dist
+/unpackage

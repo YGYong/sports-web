@@ -13,7 +13,9 @@
 				title: 'Hello'
 			}
 		},
-		onLoad() {},
+		onLoad() {
+			console.log("6666");
+		},
 		methods: {
 
 		}
