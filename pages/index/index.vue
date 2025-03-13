@@ -14,7 +14,7 @@
 			}
 		},
 		onLoad() {
-			console.log("6666");
+			console.log("66666666");
 		},
 		methods: {
 
