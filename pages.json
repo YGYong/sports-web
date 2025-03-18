@@ -3,63 +3,101 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "首页",
-				"navigationStyle":"custom"
+				"navigationBarTitleText": "运动健身",
+				"enablePullDownRefresh": true
 			}
 		},
 		{
-			"path": "pages/plan/plan",
+			"path": "pages/plan/index",
 			"style": {
-				"navigationBarTitleText": "计划"
+				"navigationBarTitleText": "训练计划",
+				"enablePullDownRefresh": true
 			}
 		},
 		{
-			"path": "pages/statistics/statistics",
+			"path": "pages/plan/detail",
 			"style": {
-				"navigationBarTitleText": "成长"
+				"navigationBarTitleText": "计划详情"
 			}
 		},
 		{
-			"path": "pages/user/user",
+			"path": "pages/plan/create",
+			"style": {
+				"navigationBarTitleText": "创建计划"
+			}
+		},
+		{
+			"path": "pages/growth/index",
+			"style": {
+				"navigationBarTitleText": "成长记录"
+			}
+		},
+		{
+			"path": "pages/user/index",
 			"style": {
 				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/records/index",
+			"style": {
+				"navigationBarTitleText": "训练记录"
+			}
+		},
+		{
+			"path": "pages/records/detail",
+			"style": {
+				"navigationBarTitleText": "记录详情"
+			}
+		},
+		{
+			"path": "pages/exercise/detail",
+			"style": {
+				"navigationBarTitleText": "运动项目"
+			}
+		},
+		{
+			"path": "pages/exercise/start",
+			"style": {
+				"navigationBarTitleText": "开始训练"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "运动健身",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
 	"uniIdRouter": {},
 	"tabBar": {
-		"color": "#86909C",
-		"selectedColor": "#008000",
-		"backgroundColor": "#e9e9e9",
+		"color": "#7A7E83",
+		"selectedColor": "#4CAF50",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
 		"list": [{
 				"pagePath": "pages/index/index",
-				"text": "首页",
-				"iconPath": "/static/images/tabbar/sports.png",
-				"selectedIconPath": "/static/images/tabbar/sportsOn.png"
+				"iconPath": "static/images/tabbar/sports.png",
+				"selectedIconPath": "static/images/tabbar/sportsOn.png",
+				"text": "首页"
 			},
 			{
-				"pagePath": "pages/plan/plan",
-				"text": "计划",
-				"iconPath": "/static/images/tabbar/plan.png",
-				"selectedIconPath": "/static/images/tabbar/planOn.png"
+				"pagePath": "pages/plan/index",
+				"iconPath": "static/images/tabbar/plan.png",
+				"selectedIconPath": "static/images/tabbar/planOn.png",
+				"text": "计划"
 			},
 			{
-				"pagePath": "pages/statistics/statistics",
-				"text": "成长",
-				"iconPath": "/static/images/tabbar/statistics.png",
-				"selectedIconPath": "/static/images/tabbar/statisticsOn.png"
+				"pagePath": "pages/growth/index",
+				"iconPath": "static/images/tabbar/statistics.png",
+				"selectedIconPath": "static/images/tabbar/statisticsOn.png",
+				"text": "成长"
 			},
 			{
-				"pagePath": "pages/user/user",
-				"text": "用户",
-				"iconPath": "/static/images/tabbar/user.png",
-				"selectedIconPath": "/static/images/tabbar/userOn.png"
+				"pagePath": "pages/user/index",
+				"iconPath": "static/images/tabbar/user.png",
+				"selectedIconPath": "static/images/tabbar/userOn.png",
+				"text": "我的"
 			}
 		]
 	},
