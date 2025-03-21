@@ -8,6 +8,12 @@
 			}
 		},
 		{
+			"path": "pages/statistics/index",
+			"style": {
+				"navigationBarTitleText": "统计"
+			}
+		},
+		{
 			"path": "pages/plan/index",
 			"style": {
 				"navigationBarTitleText": "训练计划",
@@ -61,6 +67,12 @@
 			"style": {
 				"navigationBarTitleText": "开始训练"
 			}
+		},
+		{
+			"path": "pages/tips/tips",
+			"style": {
+				"navigationBarTitleText": "科普"
+			}
 		}
 	],
 	"globalStyle": {
@@ -80,6 +92,12 @@
 				"iconPath": "static/images/tabbar/sports.png",
 				"selectedIconPath": "static/images/tabbar/sportsOn.png",
 				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tips/tips",
+				"iconPath": "static/images/tabbar/sports.png",
+				"selectedIconPath": "static/images/tabbar/sportsOn.png",
+				"text": "科普"
 			},
 			{
 				"pagePath": "pages/plan/index",
